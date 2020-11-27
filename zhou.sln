@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zhou", "zhou\zhou.vcxproj", "{4D1FAFC3-4855-44F7-A5D5-366E7FD18938}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|android = Debug|android
+		Debug|Win32 = Debug|Win32
+		Release|android = Release|android
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D1FAFC3-4855-44F7-A5D5-366E7FD18938}.Debug|android.ActiveCfg = Debug|Win32
+		{4D1FAFC3-4855-44F7-A5D5-366E7FD18938}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D1FAFC3-4855-44F7-A5D5-366E7FD18938}.Debug|Win32.Build.0 = Debug|Win32
+		{4D1FAFC3-4855-44F7-A5D5-366E7FD18938}.Release|android.ActiveCfg = Release|Win32
+		{4D1FAFC3-4855-44F7-A5D5-366E7FD18938}.Release|Win32.ActiveCfg = Release|Win32
+		{4D1FAFC3-4855-44F7-A5D5-366E7FD18938}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

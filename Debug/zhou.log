@@ -1,0 +1,26 @@
+﻿生成启动时间为 2020/11/21 21:47:18。
+     1>项目“E:\周承宇（专用）\zhou\zhou\zhou.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\zhou.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt zhou.cpp
+         zhou.cpp
+     1>zhou.cpp(276): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : 参见“localtime”的声明
+     1>zhou.cpp(277): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h(153) : 参见“asctime”的声明
+     1>zhou.cpp(295): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\周承宇（专用）\zhou\Debug\zhou.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\zhou.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\周承宇（专用）\zhou\Debug\zhou.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\周承宇（专用）\zhou\Debug\zhou.lib" /MACHINE:X86 Debug\zhou.obj
+         LINK : 没有找到 E:\周承宇（专用）\zhou\Debug\zhou.exe 或上一个增量链接没有生成它；正在执行完全链接
+         zhou.vcxproj -> E:\周承宇（专用）\zhou\Debug\zhou.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\周承宇（专用）\zhou\Debug\zhou.exe;#1" /manifest Debug\zhou.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\zhou.unsuccessfulbuild”。
+         正在对“Debug\zhou.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\周承宇（专用）\zhou\zhou\zhou.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.64
